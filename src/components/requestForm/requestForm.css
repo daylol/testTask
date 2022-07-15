@@ -1,0 +1,53 @@
+.dest {
+    display: flex;
+    width: 100%;
+    justify-content: space-between;
+    margin-bottom: 20px;
+}
+
+.dest div {
+    width: 45%;
+}
+
+.dest div input {
+    text-transform: capitalize;
+    padding: 5px;
+    margin-top: 10px;
+    border: none;
+    border-bottom: 1px solid #000;
+    width: 100%;
+}
+
+
+.parcel {
+    width: 100%;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    margin-bottom: 20px;
+}
+
+.parcel select {
+    margin-left: 10px;
+    padding: 5px;
+    border-radius: 5px;
+}
+
+select:focus {
+    outline: none;
+}
+
+.descrip {
+    width: 100%;
+}
+
+.descrip textarea {
+    width: -webkit-fill-available;
+    resize: none;
+    padding: 5px;
+    margin-top: 5px;
+}
+
+.descrip textarea:focus {
+    outline: none;
+}

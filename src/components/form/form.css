@@ -1,0 +1,70 @@
+.modal form {
+    display: flex;
+    justify-content: center;
+    flex-wrap: wrap;
+    flex-direction: column;
+    margin: 20px 0;
+}
+
+.modal form label {
+    text-transform: capitalize;
+}
+
+.modal form span {
+    text-transform: capitalize;
+}
+
+.dest {
+    display: flex;
+    justify-content: space-between;
+    margin-bottom: 20px;
+    align-items: center;
+}
+
+.dest input {
+    margin: 0 10px 0 5px;
+    padding: 3px;
+}
+
+.dest input:focus {
+    outline: none;
+}
+
+
+
+.modal .about {
+    display: flex;
+    justify-content: space-between;
+    margin-bottom: 20px;
+}
+
+
+.type select {
+    margin-left: 5px;
+    padding: 2px;
+}
+
+
+.date span {
+    margin-right: 5px;
+}
+
+.com {
+    display: flex;
+    flex-direction: column;
+    margin-bottom: 20px;
+}
+
+.com textarea {
+    margin-top: 5px;
+    padding: 5px;
+    resize: none;
+}
+
+.com textarea:focus {
+    outline: none;
+}
+
+button {
+    text-transform: capitalize;
+}
